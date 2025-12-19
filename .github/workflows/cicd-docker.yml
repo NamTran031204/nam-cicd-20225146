@@ -29,7 +29,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: namtp20225146/it4409:staging
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/it4409:staging
  
   # deploy:
   #   name: Deploy to Server
